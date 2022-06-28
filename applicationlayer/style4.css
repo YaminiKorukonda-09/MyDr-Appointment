@@ -1,0 +1,94 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+
+
+}
+.Abody{
+	/* font-size: 120%;
+	background: url("add-admin.jpg"); */
+		background: url("add-admin.jpg");
+		height: 100%;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		/* background-repeat: no-repeat; */
+
+}
+
+.Aheader{
+	width: 30%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #992828;
+	text-align: center;
+	border: 2px solid #161414;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px ;
+	padding: 20px;
+}
+
+
+
+
+.Aform{
+
+	width: 30%;
+	margin:0px auto;
+	padding: 20px;
+	border: 2px solid #0b0707;
+	background:rgba(0,0,0,0.4);
+	border-radius: 0px 0px 10px 10px;
+
+}
+
+
+.input-groupA{
+	margin: 10px 0px 10px 0px;
+}
+
+.input-groupA label{
+	display: block;
+	text-align: left;
+	margin: 3px;
+
+}
+
+.input-groupA input{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border:2px solid grey;
+	color: #992828;
+
+}
+
+.btnA{
+
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #992828;
+	border:none;
+	border-radius: 5px;
+
+
+
+
+}
+
+.error{
+
+	width: 92%;
+	margin: 0px auto;
+	padding: 10px;
+	border:1px solid #a94442;
+	color: #a94442;
+	background: #f2dede;
+	border-radius: 5px;
+	text-align: left;
+	
+}

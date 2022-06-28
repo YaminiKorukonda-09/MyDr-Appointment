@@ -1,0 +1,173 @@
+<!-- <?php include('../datalayer/server.php'); -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Patient</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+
+
+
+*,
+*:before,
+*:after{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+background-image: url(patients.jpg);
+background-size: 100%;
+}
+.background{
+width: 430px;
+height: 520px;
+position: absolute;
+transform: translate(-50%,-50%);
+left: 50%;
+top: 63%;
+}
+
+form{
+height: 450px; 
+ width: 440px;
+background-color: rgba(255,255,255,0.4);
+position: absolute;
+transform: translate(-50%,-50%);
+top: 75%;
+left: 50%;
+border-radius: 10px;
+backdrop-filter: blur(10px);
+border: 2px solid pink;
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
+padding: 10px 20px;
+}
+
+
+form *{
+font-family: 'Poppins',sans-serif;
+color: black;
+letter-spacing: 0.2px;
+outline: none;
+border: none;
+}
+form h3{
+font-size: 32px;
+font-weight: 500;
+line-height: 36px;
+text-align: center;
+}
+
+label{
+display: flex;
+flex-wrap: wrap;
+margin-top: 20px;
+font-size: 16px;
+font-weight: 500;
+}
+input{
+display: flex;
+flex-wrap: wrap;
+height: 50px;
+width: 430px;
+background-color: rgba(8,7,16,0.6);
+border-radius: 3px;
+padding: 0 10px;
+margin-top: 8px;
+font-size: 14px;
+font-weight: 300;
+}
+::placeholder{
+color: pink;
+}
+button{
+margin-top: 50px;
+margin-left: 160px;
+width: 100px;
+background-color: #872d2d;
+color: #080710;
+padding: 15px 0;
+font-size: 18px;
+font-weight: 600;
+border-radius: 5px;
+cursor: pointer;
+}
+button:hover{
+background-color: #080710;
+color: #e5e5e5;
+}
+</style>
+<body>
+
+<form method="post" action="1st.php" enctype="multipart/form-data">
+
+	<!-- <?php include ('../datalayer/errors.php'); ?> -->
+	
+	<div class="background">
+		<h1 style="text-align: center;margin-top: 20px;">PATIENT LOGIN</h1>
+
+
+			<div class="input-group">
+				<label>User ID</label>
+				<input type="text" name="UserID" >
+
+			</div>
+
+
+			<!-- <div class="input-group">
+				<label>Name</label>
+				<input type="text" name="Name" >
+
+
+			</div>
+
+			<div class="input-group">
+				<label>Address</label>
+				<input type="text" name="Address">
+
+			</div>
+
+			<div class="input-group">
+				<label>Contact Number</label>
+				<input type="text" name="ContactNumber">
+
+
+			</div>
+
+			<div class="input-group">
+				<label>Email address</label>
+				<input type="text" name="Email">
+
+			</div> -->
+
+			<div class="input-group">
+				<label>Password</label>
+				<input type="text" name="password">
+
+			</div>
+
+			<!-- <div class="input-group">
+				<label>Blood type</label>
+				<input type="text" name="bloodtype">
+
+			</div> -->
+	
+
+		<div class="input-group">
+			<button type="submit" name="Register" class="btn">LOGIN</button>
+		</div>
+
+		<!-- <p>
+			Already a member? <a href="login.php">Sign in </a>
+		</p> -->
+		</div>
+	
+
+
+
+
+</form>
+
+</body>
+</html>
